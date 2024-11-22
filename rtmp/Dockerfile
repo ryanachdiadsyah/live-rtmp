@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM tiangolo/nginx-rtmp
 
 # Salin file konfigurasi dan halaman web
 COPY nginx.conf /etc/nginx/nginx.conf
